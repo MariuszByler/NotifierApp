@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/registerSignUpTV"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:text="@string/signup"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerLayout"
+        android:layout_below="@id/registerSignUpTV"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerUsernameET"
+            android:hint="@string/username" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerPasswordET"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerEmailET"
+            android:hint="@string/email" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerNameET"
+            android:hint="@string/name" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerSurnameET"
+            android:hint="@string/surname" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registerLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/registerButton"
+        android:onClick="onSignUpClick"
+        android:text="@string/signup"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorWhite"/>
+
+
+</RelativeLayout>

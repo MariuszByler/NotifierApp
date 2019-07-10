@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Notifier App</string>
+    <string name="welcome">Mobile client of university messaging for notifications on didactic organisation</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">E-mail</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="message">Message</string>
+    <string name="grade">Grade</string>
+    <string name="schedule">Schedule</string>
+    <string name="profile">Profile</string>
+    <string name="subject">Subject</string>
+    <string name="teacher">Teacher</string>
+    <string name="type">Type</string>
+    <string name="gradesNotification">Grades Notification</string>
+    <string name="scheduleNotification">Schedule Notification</string>
+    <string name="group">Group</string>
+    <string name="newDate">New Date</string>
+    <string name="oldDate">Old Date</string>
+    <string name="messenger">Messenger</string>
+    <string name="enterEmailOrGroup">Enter Email or Group Number</string>
+    <string name="add">Add</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="send">Send</string>
+    <string name="enterMessage">Enter Message</string>
+    <string name="role">Role</string>
+    <string name="index">Index</string>
+    <string name="student">Student</string>
+    <string name="update">Update</string>
+    <string name="search">Search</string>
+</resources>

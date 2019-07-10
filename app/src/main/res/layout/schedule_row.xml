@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/scheduleSubjectTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/scheduleGroupNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scheduleSubjectTV"
+        android:text="@string/group"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/scheduleGroupTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/scheduleSubjectTV"
+        android:text="Name"
+        android:textSize="15dp"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/scheduleNewDateNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scheduleGroupNameTV"
+        android:text="@string/newDate"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/scheduleNewDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/scheduleGroupTV"
+        android:text="New Date"
+        android:textSize="15dp"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/scheduleOldDateNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scheduleNewDateNameTV"
+        android:text="@string/oldDate"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:id="@+id/scheduleOldDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/scheduleNewDateTV"
+        android:text="Old Date"
+        android:textSize="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"/>
+
+</RelativeLayout>
